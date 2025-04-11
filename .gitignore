@@ -1,0 +1,19 @@
+# Fichiers de configuration sensibles
+AFI-TECH-backend/src/main/resources/application.properties
+
+# Logs Java
+hs_err_pid*.log
+replay_pid*.log
+spring_boot.log
+
+# Autres fichiers à ignorer
+node_modules/
+target/
+dist/
+build/
+.next/
+out/
+.vscode/
+.DS_Store
+*.swp
+*.swo
