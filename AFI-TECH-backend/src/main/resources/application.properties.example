@@ -1,0 +1,17 @@
+# Configuration exemple - à compléter avec vos valeurs
+spring.application.name=Afitech
+server.port=9090
+
+# Configuration H2 Database
+spring.datasource.url=jdbc:h2:file:./data/afitechdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+# JWT Configuration
+application.security.jwt.secret-key=VOTRE_CLE_SECRETE_ICI
+application.security.jwt.expiration=86400000
+
+# Autres configurations
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
