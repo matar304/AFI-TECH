@@ -117,8 +117,3 @@ Les fichiers de build seront générés dans le dossier `dist/`.
 - Backend : Java 17, Spring Boot 3.4.2, Spring Security, JWT, Spring Data JPA, Hibernate Validator, MySQL/H2, Lombok, SpringDoc OpenAPI
 - Frontend : React 18, Vite, React Router DOM, Material UI, Axios
 
----
-
-## Contact
-
-Pour toute question ou contribution, merci de contacter l'équipe de développement AFI-TECH.
